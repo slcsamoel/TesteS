@@ -1,0 +1,33 @@
+{
+    "name": "vendor_name/padrao",
+    "description": "description",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Samoel Lopes",
+            "email": "email@example.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+
+    },
+
+    "require": {
+
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "4.0.0-alpha"
+
+    }
+
+
+
+
+}
